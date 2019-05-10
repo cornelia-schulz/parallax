@@ -5,9 +5,17 @@
     font-size: 24px;
     padding: 25px;
 }
-.parallax {
+a {
+    float: right;
+}
+.parallaxcss {
     background: url('img/mclaren-falls.jpg') no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     height: 500px;
+}
+.parallaxjs {
+    min-height: 500px;
+    background: transparent;
+    width: 100%;
 }
